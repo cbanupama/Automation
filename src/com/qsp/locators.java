@@ -30,7 +30,7 @@ public class locators {
 		//Thread.sleep(1000);
 		driver.findElement(By.cssSelector("select#month")).sendKeys("jun");
 		//Thread.sleep(1000);
-		driver.findElement(By.cssSelector("select#year")).sendKeys("2018");
+		driver.findElement(By.cssSelector("select#year")).sendKeys("2016");
 		//Thread.sleep(1000);
 		driver.findElement(By.cssSelector("input#u_0_9")).click();
 		Thread.sleep(1000);
