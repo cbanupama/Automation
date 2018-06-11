@@ -18,9 +18,10 @@ public class gmail {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://mail.google.com/");
 		driver.manage().window().maximize();
-		driver.findElement(By.id("identifierId")).sendKeys("cbanupama03@gmail.com");
+		driver.findElement(By.id("identifierId")).sendKeys("hello@example.com");
 		
 		driver.findElement(By.xpath("div[@class='ZFr60d CeoRYc']")).click();
+		Thread.sleep(1000);
 		
 		
 		driver.findElement(By.cssSelector("input['name=password ']")).sendKeys("password");
