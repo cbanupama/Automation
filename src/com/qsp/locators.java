@@ -26,11 +26,11 @@ public class locators {
 		//Thread.sleep(1000);
 		driver.findElement(By.cssSelector("input[aria-label='Mobile number or email address']")).sendKeys("hello@example.com");
 		//Thread.sleep(1000);
-		driver.findElement(By.cssSelector("select#day")).sendKeys("21");
+		driver.findElement(By.cssSelector("select#day")).sendKeys("01");
 		//Thread.sleep(1000);
-		driver.findElement(By.cssSelector("select#month")).sendKeys("Mar");
+		driver.findElement(By.cssSelector("select#month")).sendKeys("jun");
 		//Thread.sleep(1000);
-		driver.findElement(By.cssSelector("select#year")).sendKeys("1994");
+		driver.findElement(By.cssSelector("select#year")).sendKeys("2018");
 		//Thread.sleep(1000);
 		driver.findElement(By.cssSelector("input#u_0_9")).click();
 		Thread.sleep(1000);
